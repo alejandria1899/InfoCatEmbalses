@@ -1,78 +1,113 @@
-## Info Cat Reservoirs
+# Info Cat Embalses
+
+## Index
+
+- [Description](#description)
+- [Design](#design)
+- [Technologies Used](#technologies-used)
+- [Installation and Configuration](#installation-and-configuration)
+- [Routes](#routes)
+- [Functional Features](#functional-features)
+- [Technical Features](#technical-features)
+- [Project Developers](#project-developers)
+
 
 ## Description
-The application allows users to visualise the current status of the internal basins of Catalonia, displaying key data such as water level, volume of reservoirs 
-and the percentage of volume of reservoirs compared to the total capacity of the reservoir.
+
+The application allows users to visualize the current state of the internal basins of Catalonia, showing key data such as water level, stored volume, and the percentage of stored volume compared to the reservoir's total capacity. Our mission is to:
+- Provide accurate and up-to-date data on the reservoirs.
+- Promote awareness of the importance of water resources.
+- Facilitate data-driven decision-making for governments, businesses, and citizens.
+
+## Design
+
+To see the complete design of the application, you can visit our [Mockup on Figma](https://www.figma.com/design/Syc6WSsElojyub37hdt74n/InfoCatEmbalses?node-id=0-1&t=vcxeJOXpPUZyGfoA-0).
+
 
 ## Technologies Used
 
 ### Frontend
-- Vue.js**: Used for building the user interface.
-- Vue Router**: For route management within the application.
+- **Vue.js**: Used for building the user interface.
+- **Vue Router**: For route management within the application.
+- **Primevue**: For styling.
 
 ### Backend
-- Swagger**: Documentation system, development of the necessary API elements and data.
-- C# + ASP.NET**: Open source web framework used to build the necessary data for the project.
-- XUnit**: To perform and develop the unit test structure. 
+- **Swagger**: Used to consume the API.
+- **.ASP.NET**: Used to build the API that provides the necessary data for the application.
 
- 
+
 ## Installation and Configuration
 
 ### Prerequisites
+
 - Node.js (version 14 or higher)
-- .NET Core SDK (version 3.1 or higher)
+- Vue.js (version 3)
+- .NET SDK (version 3.1 or higher)
 
 ### Installation
 
 #### Frontend
+
 1. Clone the repository:
-    ````bash
+    ```bash
     git clone https://github.com/hugoperez11/info-cat-embalses
     cd info-cat-embalses
     ```
 
-2. Install the dependencies:
-    ````bash
+2. Install dependencies:
+    ```bash
     npm install
     ```
 
 3. Start the development server:
-    ````bash
+    ```bash
     npm run serve
     ```
 
 #### Backend
+
 1. Clone the repository:
+    ```bash
     git clone https://github.com/alejandria1899/InfoCatEmbalses.git
     cd InfoCatEmbalses
-   
+    ```
+
 The API will be available at `http://localhost:5045/swagger`.
 
 
-## Project structure
-
-## Paths
+## Routes
 
 ### Frontend
 
-- Home`: Main page showing an overview of the reservoirs.
+- `/Home`: Main page showing an overview of the reservoirs.
 - `/About Us`: "About Us" page providing information about the project and the team.
-- `/Contact`: "Contact" page providing a form.
+- `/Contact`: "Contact" page providing a contact form.
 - `/Search`: "Search" page providing information and data on the basins of Catalonia.
 
 ### Backend
 
-- `/api/embalses`: Endpoint that provides data about the reservoirs.
-
+- `/api/embalses`: Endpoint providing data on the reservoirs.
 
 ## Functional Features
 
-- Reservoir Status Display**: Shows the water level, the volume of water in the reservoir and the percentage of the volume of water in the reservoir.
-- Intuitive Interface**: Clear and easy to use user interface, built with Vue.js.
-- Real-Time Data**: Up-to-date information on the status of the reservoirs.
+- **Reservoir Status Visualization**: Displays water level, stored volume, and percentage of stored volume.
+- **Intuitive Interface**: Clear and easy-to-use user interface built with Vue.js.
+- **Real-Time Data**: Updated information on the status of the reservoirs.
 
 ## Technical Features
 
-- Modular Architecture**: Clear separation between frontend and backend for better maintainability.
-- Vue.js**: Use of modern technologies for a robust and scalable application.
-- RESTful API**: Backend built with .ASP.NET, following REST principles for easy integration.
+- **Modular Architecture**: Clear separation between frontend and backend for better maintainability.
+- **Vue.js**: Use of modern technologies for a robust and scalable application.
+- **RESTful API**: Backend built with .ASP.NET, following REST principles for easy integration.
+
+## Project Developers
+
+### Frontend
+- Sara Terán: Scrum Master
+- Esther P. Sarasua: Developer
+- Conchy Pereira: Developer
+- Belén Sanchez: Developer
+
+### Backend
+- Isamar Romero: Developer
+- Roger Esteve: Product Owner
