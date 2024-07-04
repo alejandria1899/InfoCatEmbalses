@@ -12,7 +12,7 @@ and the percentage of volume of reservoirs compared to the total capacity of the
 
 ### Backend
 - Swagger**: Documentation system, development of the necessary API elements and data.
-- ASP.NET**: Open source web framework used to build the necessary data for the project.
+- C# + ASP.NET**: Open source web framework used to build the necessary data for the project.
 - XUnit**: To perform and develop the unit test structure. 
 
  
