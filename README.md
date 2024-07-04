@@ -1,9 +1,8 @@
 ## Info Cat Reservoirs
 
 ## Description
-The application allows users to visualise the current status of the internal basins of Catalonia, 
-displaying key data such as water level, volume of reservoirs and the percentage of volume of 
-reservoirs compared to the total capacity of the reservoir.
+The application allows users to visualise the current status of the internal basins of Catalonia, displaying key data such as water level, volume of reservoirs 
+and the percentage of volume of reservoirs compared to the total capacity of the reservoir.
 
 ## Technologies Used
 
@@ -13,10 +12,10 @@ reservoirs compared to the total capacity of the reservoir.
 
 ### Backend
 - Swagger**: Documentation system, development of the necessary API elements and data.
-- ASP.NET**: Open source web framework used to build the necessary data for the project.
-- XUnit**: To perform and develop the unit test structure.
+- C# + ASP.NET**: Open source web framework used to build the necessary data for the project.
+- XUnit**: To perform and develop the unit test structure. 
 
-
+ 
 ## Installation and Configuration
 
 ### Prerequisites
@@ -44,9 +43,9 @@ reservoirs compared to the total capacity of the reservoir.
 
 #### Backend
 1. Clone the repository:
-   git clone https://github.com/alejandria1899/InfoCatEmbalses.git
-   cd InfoCatEmbalses
-
+    git clone https://github.com/alejandria1899/InfoCatEmbalses.git
+    cd InfoCatEmbalses
+   
 The API will be available at `http://localhost:5045/swagger`.
 
 
@@ -68,14 +67,12 @@ The API will be available at `http://localhost:5045/swagger`.
 
 ## Functional Features
 
-- Reservoir Status Display**: Shows the water level, the volume of water in the reservoir 
-and the percentage of the volume of water in the reservoir.
+- Reservoir Status Display**: Shows the water level, the volume of water in the reservoir and the percentage of the volume of water in the reservoir.
 - Intuitive Interface**: Clear and easy to use user interface, built with Vue.js.
 - Real-Time Data**: Up-to-date information on the status of the reservoirs.
 
 ## Technical Features
 
-- Modular Architecture**: Clear separation between frontend and backend for better 
-maintainability.
+- Modular Architecture**: Clear separation between frontend and backend for better maintainability.
 - Vue.js**: Use of modern technologies for a robust and scalable application.
 - RESTful API**: Backend built with .ASP.NET, following REST principles for easy integration.
