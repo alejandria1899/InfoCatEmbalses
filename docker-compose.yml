@@ -1,0 +1,6 @@
+﻿services:
+  infocatembalses:
+    image: infocatembalses
+    build:
+      context: .
+      dockerfile: InfoCatEmbalses/Dockerfile

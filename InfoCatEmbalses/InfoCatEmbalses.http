@@ -1,0 +1,6 @@
+@InfoCatEmbalses_HostAddress = http://localhost:5045
+
+GET {{InfoCatEmbalses_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
