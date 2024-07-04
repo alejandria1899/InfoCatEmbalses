@@ -58,7 +58,7 @@ The API will be available at `http://localhost:5045/swagger`.
 - Home`: Main page showing an overview of the reservoirs.
 - `/About Us`: "About Us" page providing information about the project and the team.
 - `/Contact`: "Contact" page providing a form.
-  - `/Search`: "Search" page providing information and data on the basins of Catalonia.
+- `/Search`: "Search" page providing information and data on the basins of Catalonia.
 
 ### Backend
 
