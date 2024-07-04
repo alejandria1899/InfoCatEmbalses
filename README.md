@@ -30,6 +30,7 @@ To see the complete design of the application, you can visit our [Mockup on Figm
 - **Vue.js**: Used for building the user interface.
 - **Vue Router**: For route management within the application.
 - **Primevue**: For styling.
+-  **[Vitest](https://github.com/vitejs/vitest)**: This project uses as the testing framework to run unit and integration tests.
 
 ### Backend
 - **Swagger**: Used to consume the API.
