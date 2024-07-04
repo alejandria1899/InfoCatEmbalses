@@ -20,10 +20,12 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddScoped<IEmbalseRepository, EmbalseRepository>();
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("Allowlocalhost4200", policyBuilder =>
+    options.AddPolicy("Allowlocalhost5173", policyBuilder =>
     {
-        policyBuilder.WithOrigins("http://localhost:4200") //URL del front
-            .AllowAnyMethod().AllowCredentials(); 
+        policyBuilder.WithOrigins("http://localhost:5173") //URL del front
+            .AllowAnyMethod()
+            .AllowCredentials()
+            .AllowAnyHeader();
     });
 });
 
@@ -41,5 +43,6 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+app.UseCors("Allowlocalhost5173");
 
 app.Run();

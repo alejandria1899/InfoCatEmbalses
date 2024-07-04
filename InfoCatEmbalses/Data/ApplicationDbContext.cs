@@ -15,7 +15,6 @@ public class AppDbContext : DbContext
   modelBuilder.Entity<Embalse>(entity =>
   {
    entity.Property(e => e.Estacio).IsRequired();
-   // Configura otras propiedades si es necesario
   });
  }
 }
