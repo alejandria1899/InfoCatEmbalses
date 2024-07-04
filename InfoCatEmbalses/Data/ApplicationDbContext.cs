@@ -10,12 +10,12 @@ public class AppDbContext : DbContext
  {
  }
 
- protected override void OnModelCreating(ModelBuilder modelBuilder)
- {
-  modelBuilder.Entity<Embalse>(entity =>
-  {
-   entity.Property(e => e.Estacio).IsRequired();
-   // Configura otras propiedades si es necesario
-  });
- }
+ // protected override void OnModelCreating(ModelBuilder modelBuilder)
+ // {
+ //  modelBuilder.Entity<Embalse>(entity =>
+ //  {
+ //   entity.Property(e => e.Estacio).IsRequired();
+ //   // Configura otras propiedades si es necesario
+ //  });
+ // }
 }

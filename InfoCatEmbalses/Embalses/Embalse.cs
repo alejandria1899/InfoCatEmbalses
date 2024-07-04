@@ -4,12 +4,6 @@ namespace InfoCatEmbalses.Embalses;
 
 public class Embalse
 {
-    // public int Id { get; set; }
-    // public DateTime Dia { get; set; }
-    // public string Estacio { get; set; }
-    // public decimal NivellAbsolut { get; set; }
-    // public decimal VolumEmbassat { get; set; }
-    
     public int Id { get; set; }
 
     [JsonPropertyName("dia")]
